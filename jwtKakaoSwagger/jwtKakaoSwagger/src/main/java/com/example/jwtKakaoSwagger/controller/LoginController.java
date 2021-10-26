@@ -26,6 +26,7 @@ public class LoginController {
     KakaoAPI kakaoAPI = new KakaoAPI();
 
     @ApiOperation(value = "카카오 로그인 Redirection")
+    @Transactional
     @GetMapping("/login")
     public Object login(@RequestParam String code) {
 //        redirection url 여기로 코드가 넘어옴.
