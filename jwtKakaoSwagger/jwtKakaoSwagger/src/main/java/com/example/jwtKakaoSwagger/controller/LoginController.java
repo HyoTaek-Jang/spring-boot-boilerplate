@@ -33,6 +33,7 @@ public class LoginController {
         if (code == null) {
             return "로그인 실패";
         }
+        System.out.println("code = " + code);
 
         String kakaoToken = kakaoAPI.getAccessToken(code);
         HashMap<String, Object> userInfo = kakaoAPI.getUserInfo(kakaoToken);
