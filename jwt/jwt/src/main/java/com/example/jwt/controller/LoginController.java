@@ -23,7 +23,7 @@ public class LoginController {
         if (loginRequest.getEmail().equals("test") && loginRequest.getPwd().equals("123")) {
             // login 성공
             // 1분짜리 Acess
-            String accessToken = authService.createToken(loginRequest.getEmail(), (1 * 60L* 1000));
+            String accessToken = authService.createToken(loginRequest.getEmail(), (60L * 1000));
             String refreshToken = authService.createToken(loginRequest.getEmail(), (30L * 24 * 60 * 60 * 1000));
 
             Auth auth = authService.createAuth(accessToken, refreshToken, loginRequest.getEmail());
@@ -43,5 +43,15 @@ public class LoginController {
     @GetMapping("/test")
     public String test() {
         return "토큰 확인 완료";
+    }
+
+    @GetMapping
+    public String main() {
+        return "index";
+    }
+
+    @GetMapping("/login")
+    public String loginpage() {
+        return "loginpage";
     }
 }

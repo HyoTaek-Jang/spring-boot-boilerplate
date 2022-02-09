@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fd48d4-8771-471f-8853-1bc72fa7edcb" name="Changes" comment="feat: add JWT">
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/jwtKakaoSwagger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/modules/jwtKakaoSwagger.jwtKakaoSwagger.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/controller/GlobalEcexptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/domain/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/repository/AuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/util/JwtTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtKakaoSwagger/jwtKakaoSwagger/src/main/java/com/example/jwtKakaoSwagger/util/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d080ab1-4b92-4b31-b696-bdd3a1c4ebb5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d080ab1-4b92-4b31-b696-bdd3a1c4ebb5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jwtKakaoSwagger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +108,7 @@
       <recent name="com.example.jwt.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.jwt [build]">
+  <component name="RunManager" selected="Spring Boot.JwtApplication (1)">
     <configuration name="jwt [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,6 +129,13 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="JwtApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jwt.jwt.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jwt.JwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="JwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="jwt.jwt.main~1" />
@@ -170,6 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635255255381</updated>
       <workItem from="1635255257058" duration="4802000" />
+      <workItem from="1644379905892" duration="2633000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add JWT">
       <created>1635259504071</created>
@@ -194,6 +184,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add JWT" />
