@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77fd48d4-8771-471f-8853-1bc72fa7edcb" name="Changes" comment="feat: spring security configure 설정">
+    <list default="true" id="77fd48d4-8771-471f-8853-1bc72fa7edcb" name="Changes" comment="err: 시큐리티 필터 이후 interceptor 에러 발생">
+      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/domain/SecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/service/CustomUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/GlobalEcexptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/GlobalEcexptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635255255381</updated>
       <workItem from="1635255257058" duration="4802000" />
-      <workItem from="1644379905892" duration="5221000" />
+      <workItem from="1644379905892" duration="6425000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add JWT">
       <created>1635259504071</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644396181262</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="err: 시큐리티 필터 이후 interceptor 에러 발생">
+      <created>1644402690163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644402690163</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +201,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add JWT" />
     <MESSAGE value="feat: spring security configure 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: spring security configure 설정" />
+    <MESSAGE value="err: 시큐리티 필터 이후 interceptor 에러 발생" />
+    <option name="LAST_COMMIT_MESSAGE" value="err: 시큐리티 필터 이후 interceptor 에러 발생" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

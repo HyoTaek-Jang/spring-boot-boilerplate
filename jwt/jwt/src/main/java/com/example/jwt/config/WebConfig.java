@@ -24,13 +24,13 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins("*");
     }
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        List<String> excludePaths = new LinkedList<>();
-        excludePaths.add("/login");
-        excludePaths.add("/");
-        registry.addInterceptor(testInterceptor).addPathPatterns("/**")
-                .excludePathPatterns(excludePaths);
-    }
+    // @Override
+    // public void addInterceptors(InterceptorRegistry registry) {
+    //     List<String> excludePaths = new LinkedList<>();
+    //     excludePaths.add("/login");
+    //     excludePaths.add("/");
+    //     registry.addInterceptor(testInterceptor).addPathPatterns("/**")
+    //             .excludePathPatterns(excludePaths);
+    // }
 
 }
