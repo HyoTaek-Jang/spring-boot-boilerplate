@@ -16,7 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class WebConfig implements WebMvcConfigurer {
 
-    private final JwtTokenInterceptor jwtTokenInterceptor;
+    private final JwtTokenInterceptor testInterceptor;
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
@@ -29,7 +29,7 @@ public class WebConfig implements WebMvcConfigurer {
         List<String> excludePaths = new LinkedList<>();
         excludePaths.add("/login");
         excludePaths.add("/");
-        registry.addInterceptor(jwtTokenInterceptor).addPathPatterns("/**")
+        registry.addInterceptor(testInterceptor).addPathPatterns("/**")
                 .excludePathPatterns(excludePaths);
     }
 

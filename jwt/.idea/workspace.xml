@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77fd48d4-8771-471f-8853-1bc72fa7edcb" name="Changes" comment="feat: add JWT">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d080ab1-4b92-4b31-b696-bdd3a1c4ebb5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d080ab1-4b92-4b31-b696-bdd3a1c4ebb5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="77fd48d4-8771-471f-8853-1bc72fa7edcb" name="Changes" comment="feat: spring security configure 설정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/GlobalEcexptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/GlobalEcexptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635255255381</updated>
       <workItem from="1635255257058" duration="4802000" />
-      <workItem from="1644379905892" duration="2633000" />
+      <workItem from="1644379905892" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add JWT">
       <created>1635259504071</created>
@@ -168,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635259504071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: spring security configure 설정">
+      <created>1644396181262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644396181262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +193,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add JWT" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add JWT" />
+    <MESSAGE value="feat: spring security configure 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: spring security configure 설정" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/util/JwtTokenInterceptor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/jwt/src/main/java/com/example/jwt/config/WebConfig.java</url>
+          <line>18</line>
+          <properties field="jwtTokenInterceptor" class="com.example.jwt.config.WebConfig" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

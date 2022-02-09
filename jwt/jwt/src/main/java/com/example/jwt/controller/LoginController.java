@@ -54,4 +54,9 @@ public class LoginController {
     public String loginpage() {
         return "loginpage";
     }
+
+    @GetMapping("/a")
+    public String a() {
+        return "aaaaaa";
+    }
 }
